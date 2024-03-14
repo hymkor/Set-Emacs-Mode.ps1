@@ -29,3 +29,11 @@ curl -O https://raw.githubusercontent.com/hymkor/Set-Emacs-Mode.ps1/master/Set-E
     + `pwsh Set-Emacs-Mode.ps1`
 
 powershell とpwsh では、$profile の場所が違うので、それぞれで行うこと
+
+だがしかし
+---------
+
+1. PowerShell の中から手作業で `notepad $profile`
+2. `Import-Module PSReadline` , `Set-PSReadLineOption -EditMode Emacs` をコピペ
+
+の方が早いな、こりゃ
